@@ -236,11 +236,11 @@ SELECT * FROM tbl_emp a RIGHT JOIN tbl_dept b ON a.deptId = b.id WHERE a.deptId 
 
 #### 4. 总结
 
-![](哔哩哔哩-MySQL高级.assets/join 1-3.png)
+![](哔哩哔哩-MySQL高级.assets/join1-3.png)
 
-![](哔哩哔哩-MySQL高级.assets/join 4-5.png)
+![](哔哩哔哩-MySQL高级.assets/join4-5.png)
 
-![](哔哩哔哩-MySQL高级.assets/join 6-7.png)
+![](哔哩哔哩-MySQL高级.assets/join6-7.png)
 
 ### 三、索引
 
@@ -743,6 +743,7 @@ SELECT * FROM tbl_emp a RIGHT JOIN tbl_dept b ON a.deptId = b.id WHERE a.deptId 
   LOCK TABLE table_name READ|WRITE;
   # 释放锁
   UNLOCK TABLES;
+  ```
 # 查看表的加锁情况
   SHOW OPEN TABLES;
   # 表锁分析
